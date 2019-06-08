@@ -1,7 +1,11 @@
+.fas {margin-left:20px;font-size:20;color:gold;margin-right:10px;}
+.ex4 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;opacity: 0.8;}
 .ex1 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;}
 body {
   font-family: "Lato", sans-serif;
 }
+a {text-decoration:none; color:gold;}
+a:hover {color:red;}
 .ex3 {border-bottom-left-radius: 10px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 10px; border-color: gold; border-style: solid; padding: 0.4cm; background-color: green; text-align:center; margin-left: 18cm; margin-right: 18cm;color:gold;font-size: 15px;font-weight: bold;font-family: Arial;}
 /* Fixed sidenav, full height */
 .sidenav {
@@ -67,7 +71,7 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.ex2 {font-family: Arial;font-size:15px;color: gold;line-height: 1.6; text-align: justify; background-color: darkgreen; border-radius: 30px;padding: 30px 30px 500px 30px;border-style:solid; border-color: gold;border-width: 8px;
+.ex2 {font-family: Arial;font-size:15px;color: gold;line-height: 1.6; text-align: justify; background-color: darkgreen;margin-left: 50px; margin-right:50px; border-radius: 30px;padding: 30px 30px 500px 30px;border-style:solid; border-color: gold;border-width: 8px;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
