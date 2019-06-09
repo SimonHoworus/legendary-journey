@@ -1,12 +1,12 @@
 .fas {padding-left:10px;font-size:20;color:gold;padding-right:10px;}
-.ex4 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;opacity: 0.8;}
+.ex4 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;opacity: 0.9;}
 .ex1 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;}
 body {
   font-family: "Lato", sans-serif;
 }
 a {text-decoration:none; color:gold;}
 a:hover {color:red;}
-.ex3 {border-bottom-left-radius: 10px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 10px; border-color: gold; border-style: solid; padding: 0.4cm; background-color: green; text-align:center; margin-left: 18cm; margin-right: 18cm;color:gold;font-size: 15px;font-weight: bold;font-family: Arial;}
+.ex3 {border-bottom-left-radius: 10px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 10px; border-color: gold; border-style: solid; padding: 0.4cm; background-color: green; text-align:center; margin-left: 18cm; margin-right: 18cm;color:gold;font-size: 15px;font-weight: bold;}
 /* Fixed sidenav, full height */
 .sidenav {
   height: 85%;
@@ -71,7 +71,7 @@ a:hover {color:red;}
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.ex2 {font-family: Arial;font-size:15px;color: gold;line-height: 1.6; text-align: justify; background-color: darkgreen;margin-left: 50px; margin-right:50px; border-radius: 30px;padding: 30px 30px 500px 30px;border-style:solid; border-color: gold;border-width: 8px;
+.ex2 {font-size:15px;color: gold;line-height: 1.6; text-align: justify; background-color: darkgreen;margin-left: 50px; margin-right:50px; border-radius: 30px;padding: 30px 30px 500px 30px;border-style:solid; border-color: gold;border-width: 8px;float:left;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -141,8 +141,8 @@ hr {
 	animation-timing-function: ease-in-out;
 }
 @keyframes example6 {
-  from {transform:translate(0px,0px);width:94%; box-shadow: 0 0 10px 5px #3366FF;}
-  to {transform:translate(0px,10px);width:94%; box-shadow: 0 0 10px 5px green;}
+  from {transform:translate(0px,0px);width:94%; box-shadow: 0 0 10px 5px yellow;}
+  to {transform:translate(0px,10px);width:94%; box-shadow: 0 0 10px 5px red;}
 
 }
 #ex5 {display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;}
@@ -151,3 +151,19 @@ hr {
 background: linear-gradient(225deg,#ff0000 0%, #fff500 80%);
 background: -webkit-linear-gradient(225deg,#ff0000 0%, #fff500 80%);
 background: -moz-linear-gradient(225deg,#ff0000 0%, #fff500 80%);}
+img {border-color:gold; border-width:4px;border-style:solid;border-radius:30px;}
+@font-face {
+   font-family: myFirstFont;
+   src: url(nasalization.woff);
+}
+h2 {
+   font-family: myFirstFont;
+}
+
+@font-face {
+   font-family: myFirstFont2;
+   src: url(SansationLight.woff);
+}
+p, td, table, a, div, button {font-family:myFirstFont2;
+}
+#ex12 {color:orange;font-size:40px;text-align:center;text-shadow:-1px 0 #00e600,  0 1px #00e600, 1px 0 #00e600, 0 -1px #00e600;}
