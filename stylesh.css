@@ -1,6 +1,5 @@
-.fas {padding-left:10px;font-size:20;color:gold;padding-right:10px;}
 .ex4 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;opacity: 0.9;}
-.ex1 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;}
+.ex1 {background-image: url(2cb.jpg); background-position: center; background-attachment:fixed;opacity:0.94;}
 body {
   font-family: "Lato", sans-serif;
 }
@@ -71,7 +70,9 @@ a:hover {color:red;}
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.ex2 {font-size:10px;color: white;line-height: 1.6; text-align: justify;background-image: linear-gradient(-135deg, green, navy, green, navy);margin-left: 50px; margin-right:50px; border-radius: 30px;padding: 30px;border-style:solid; border-color: gold;border-width: 8px;text-transform:uppercase;font-weight: 900;letter-spacing: 1px;
+.ex2 {font-size:10px;color:#C8FE2E;line-height: 1.6; text-align: justify;background-image: linear-gradient(-135deg, green, navy, green, navy);margin-left: 50px; margin-right:50px;margin-top:150px; border-radius: 30px;padding: 30px 30px 60px 30px;border-style:solid; border-color: #5B07DA;border-width: 8px;text-transform:uppercase;font-weight: 400;letter-spacing: 1px;
+}
+.exnew {font-size:10px;color:#C8FE2E;line-height: 1.6; text-align: justify;background-image: linear-gradient(-135deg, green, navy, green, navy);margin-left: 20px; margin-right:20px; border-radius: 10px;padding: 10px 10px 10px 10px;border-style:solid; border-color: #5B07DA;border-width: 3px;text-transform:uppercase;font-weight: 400;letter-spacing: 1px;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -89,11 +90,11 @@ body {
   background-color: red;
   color: white;
   cursor: pointer;
-  padding-top: 15px;padding-bottom: 15px;
-  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 30px;opacity:0.9;
 }
 #myBtn:hover {
-  background-color: green;
+  background-color: green;transition-duration:0.3s;
 }
 html {scroll-behavior:smooth;}
 
@@ -101,44 +102,83 @@ html {scroll-behavior:smooth;}
 body {margin:0;height:2000px;}
 
 .icon-bar {
-  position: fixed;
-  top: 7%;
+  position: absolute;
+  top: 7%;left:4%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .icon-bar a {
-  display: block;
+  display: inline-block;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
   color: white;margin-left:5px;
-  font-size: 20px;border-radius:10px;transition-duration:0.5s;
+  font-size: 20px;border-radius:30px;transition-duration:0.5s;
 }
 
 .icon-bar a:hover {margin-left:5px;
-    background-color: green;transform:scale(0.9);transition-duration:0.5s;
+    background-color: green;transform:scale(0.9);transition-duration:0.5s;color:black;
 }
 
 .facebook {
   background: #3B5998;
   color: white;
 }
+.home {background: #DF3A01;
+  color: white; border-style:solid; border-color: white; border-width:3px;
+}
+.icon-bar1 {
+  position: absolute;
+  top: 7%;right:7%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
+.icon-bar1 a {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;margin-right:5px;
+  font-size: 20px;border-radius:30px;transition-duration:0.5s;
+}
+
+.icon-bar1 a:hover {margin-right:5px;
+    background-color: green;transform:scale(0.9);transition-duration:0.5s;color:black;
+}
+
+.facebook1 {
+  background: #3B5998;
+  color: white;
+}
+.home1 {background: #DF3A01;
+color: white;
+}
+.old1 {background: #099FF6;
+  color: white;
+}
 .content {
   margin-left: 75px;
   font-size: 30px;
 }
-.ex7 {border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left}
-.ex71{border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:right}
+#nn {color:orange;font-size:20px;
+text-align:center;text-shadow:-1px 0 #00e600,  0 1px #00e600, 1px 0 #00e600, 0 -1px #00e600;
+background-image: linear-gradient(-135deg, green, navy, green, navy); border-radius: 20px;
+padding: 20px 0px 20px 0px;border-style: solid; border-color: #5B07DA;border-width: 8px; 
+text-transform:uppercase;font-weight: 900;letter-spacing: 8px;margin-right: auto;
+margin-left: auto;max-width:600px;font-style:italic;}
+
+.ex7 {border-radius: 30px;border-color:#94ED0D;border-width:4px;border-style:solid;float:left; max-width:250px;}
+.ex71{border-radius: 30px;border-color:#94ED0D;border-width:4px;border-style:solid;float:right; max-width:250px;}
 #ex20 {display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:50px;margin-top:20px;margin-bottom:30px;}
 .ex8 {margin-left:auto;margin-right:auto;display:block;}
-.ex11 {border-radius: 18px;border-color:gold;border-width:4px;border-style:solid;color:black;font-size:14px;padding:20px;font-family:Arial;text-align:center;font-weight: 900;background: #ff0000;
-background: linear-gradient(225deg,#ff0000 0%, #fff500 80%);
-background: -webkit-linear-gradient(225deg,#ff0000 0%, #fff500 80%);
-background: -moz-linear-gradient(225deg,#ff0000 0%, #fff500 80%);}
+.ex11 {border-radius: 18px;border-color:gold;border-width:4px;border-style:solid;color:#C8FE2E;font-size:14px;padding:20px;text-align:center;font-weight: 900;background: #ff0000;
+background-image: linear-gradient(-135deg, green, navy, green, navy);}
 img {border-color:gold; border-width:4px;border-style:solid;border-radius:30px;}
+.nim {border-radius: 30px; float:left;max-width:300px;border-color:#94ED0D;border-style:solid;border-width:5px;}
 @font-face {
    font-family: myFirstFont;
    src: url(nasalization.woff);
@@ -153,45 +193,65 @@ p, h2, a, button, td, table {
 }
 h1 {font-family:myFirstFont2;
 }
-#ex12 {color:orange;font-size:40px;text-align:center;text-shadow:-1px 0 #00e600,  0 1px #00e600, 1px 0 #00e600, 0 -1px #00e600;background-image: linear-gradient(-135deg, green, navy, green, navy); border-radius: 30px;padding: 30px;border-style: solid; border-color: gold;border-width: 8px; text-transform:uppercase;font-weight: 900;letter-spacing: 10px;margin-right: 50px;margin-left: 50px;}
+#ex12 {color:orange;font-size:20px;text-align:center;text-shadow:-1px 0 #00e600,  0 1px #00e600, 1px 0 #00e600, 0 -1px #00e600;background-image: linear-gradient(-135deg, green, navy, green, navy); border-radius: 30px;padding: 20px 0px 20px 0px;border-style: solid; border-color: #5B07DA;border-width: 8px; text-transform:uppercase;font-weight: 900;letter-spacing: 8px;margin-right: auto;margin-left: auto;max-width:600px;font-style:italic;}
 
 #ex5 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex5:hover {transform:scale(1.1);transition-duration:0.6s;}
 
 #ex51 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex51:hover {transform:scale(1.1);transition-duration:0.6s;}
 
 #ex52 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE; border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex52:hover {transform:scale(1.1);transition-duration:0.6s;}
 #ex53 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex53:hover {transform:scale(1.1);transition-duration:0.6s;}
 #ex54 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex54:hover {transform:scale(1.1);transition-duration:0.6s;}
 #ex55 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex55:hover {transform:scale(1.1);transition-duration:0.6s;}
 #ex56 {
-  display:inline-block;border-radius: 30px;border-color:gold;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
   cursor: pointer;}
 
 #ex56:hover {transform:scale(1.1);transition-duration:0.6s;}
+#ex57 {
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  cursor: pointer;}
+
+#ex57:hover {transform:scale(1.1);transition-duration:0.6s;}
+#ex58 {
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  cursor: pointer;}
+
+#ex58:hover {transform:scale(1.1);transition-duration:0.6s;}
+#ex59 {
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  cursor: pointer;}
+
+#ex59:hover {transform:scale(1.1);transition-duration:0.6s;}
+#ex60 {
+  display:inline-block;border-radius: 30px;border-color:#2E64FE;border-width:4px;border-style:solid;float:left;margin-left:20px;margin-top:20px;margin-bottom:30px;transition-duration:0.6s;
+  cursor: pointer;}
+
+#ex60:hover {transform:scale(1.1);transition-duration:0.6s;}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -212,7 +272,7 @@ h1 {font-family:myFirstFont2;
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 700px;border-color:#C8FE2E;
 }
 
 /* Caption of Modal Image */
@@ -222,7 +282,7 @@ h1 {font-family:myFirstFont2;
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: #ccc;
+  color: #C8FE2E;
   padding: 10px 0;
   height: 150px;
 }
@@ -260,4 +320,10 @@ h1 {font-family:myFirstFont2;
   color: red;
   text-decoration: none;
   cursor: pointer;
+}
+.gyms {display:block;margin-left:auto;margin-right:auto; margin-top:50px; margin-bottom:50px;border-style:outset; border-color:white;border-radius:0;
+border-width:10px;	
+}
+#baner {position: absolute;
+  top: 3.6%;right:3%;
 }
